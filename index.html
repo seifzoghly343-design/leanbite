@@ -1,0 +1,672 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta
+    name="description"
+    content="Lean Bite Baghdad takeaway menu for healthy meals."
+  />
+  <title>Lean Bite | Healthy Meals Baghdad</title>
+
+  <!-- Brand styles -->
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <div class="brand">
+        <span class="brand-mark">LB</span>
+        <div>
+          <h1>Lean Bite</h1>
+          <p>Healthy Meals in Baghdad</p>
+        </div>
+      </div>
+
+      <button class="cart-button" id="cartButton" type="button">
+        Cart
+        <span class="cart-count" id="cartCount">0</span>
+      </button>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="container hero-inner">
+        <p class="eyebrow">Fresh • Balanced • Convenient</p>
+        <h2>Healthy meals made simple.</h2>
+        <p>
+          Choose your meals, add them to your cart, enter your details,
+          and place your takeaway order.
+        </p>
+
+        <a class="primary-button" href="#menu">View Menu</a>
+      </div>
+    </section>
+
+    <section class="menu-section" id="menu">
+      <div class="container">
+        <div class="section-heading">
+          <p class="eyebrow">Takeaway Menu</p>
+          <h2>Choose Your Meal</h2>
+          <p>
+            Meal names, prices, descriptions, and images can be added later.
+          </p>
+        </div>
+
+        <div class="menu-grid">
+
+          <!-- Meal 01 -->
+          <article class="meal-card" data-meal-id="1">
+            <div class="meal-image-placeholder">Meal Image 01</div>
+            <div class="meal-content">
+              <h3>Meal Name 01</h3>
+              <p class="meal-description">Meal description goes here.</p>
+              <div class="meal-footer">
+                <span class="meal-price">Price</span>
+                <button class="add-to-cart" type="button" data-meal-id="1">Add to Cart</button>
+              </div>
+            </div>
+          </article>
+
+          <!-- Meal 02 -->
+          <article class="meal-card" data-meal-id="2">
+            <div class="meal-image-placeholder">Meal Image 02</div>
+            <div class="meal-content">
+              <h3>Meal Name 02</h3>
+              <p class="meal-description">Meal description goes here.</p>
+              <div class="meal-footer">
+                <span class="meal-price">Price</span>
+                <button class="add-to-cart" type="button" data-meal-id="2">Add to Cart</button>
+              </div>
+            </div>
+          </article>
+
+          <!-- Meal 03 -->
+          <article class="meal-card" data-meal-id="3">
+            <div class="meal-image-placeholder">Meal Image 03</div>
+            <div class="meal-content">
+              <h3>Meal Name 03</h3>
+              <p class="meal-description">Meal description goes here.</p>
+              <div class="meal-footer">
+                <span class="meal-price">Price</span>
+                <button class="add-to-cart" type="button" data-meal-id="3">Add to Cart</button>
+              </div>
+            </div>
+          </article>
+
+          <!-- Meal 04 -->
+          <article class="meal-card" data-meal-id="4">
+            <div class="meal-image-placeholder">Meal Image 04</div>
+            <div class="meal-content">
+              <h3>Meal Name 04</h3>
+              <p class="meal-description">Meal description goes here.</p>
+              <div class="meal-footer">
+                <span class="meal-price">Price</span>
+                <button class="add-to-cart" type="button" data-meal-id="4">Add to Cart</button>
+              </div>
+            </div>
+          </article>
+
+          <!-- Meal 05 -->
+          <article class="meal-card" data-meal-id="5">
+            <div class="meal-image-placeholder">Meal Image 05</div>
+            <div class="meal-content">
+              <h3>Meal Name 05</h3>
+              <p class="meal-description">Meal description goes here.</p>
+              <div class="meal-footer">
+                <span class="meal-price">Price</span>
+                <button class="add-to-cart" type="button" data-meal-id="5">Add to Cart</button>
+              </div>
+            </div>
+          </article>
+
+          <!-- Meal 06 -->
+          <article class="meal-card" data-meal-id="6">
+            <div class="meal-image-placeholder">Meal Image 06</div>
+            <div class="meal-content">
+              <h3>Meal Name 06</h3>
+              <p class="meal-description">Meal description goes here.</p>
+              <div class="meal-footer">
+                <span class="meal-price">Price</span>
+                <button class="add-to-cart" type="button" data-meal-id="6">Add to Cart</button>
+              </div>
+            </div>
+          </article>
+
+          <!-- Meal 07 -->
+          <article class="meal-card" data-meal-id="7">
+            <div class="meal-image-placeholder">Meal Image 07</div>
+            <div class="meal-content">
+              <h3>Meal Name 07</h3>
+              <p class="meal-description">Meal description goes here.</p>
+              <div class="meal-footer">
+                <span class="meal-price">Price</span>
+                <button class="add-to-cart" type="button" data-meal-id="7">Add to Cart</button>
+              </div>
+            </div>
+          </article>
+
+          <!-- Meal 08 -->
+          <article class="meal-card" data-meal-id="8">
+            <div class="meal-image-placeholder">Meal Image 08</div>
+            <div class="meal-content">
+              <h3>Meal Name 08</h3>
+              <p class="meal-description">Meal description goes here.</p>
+              <div class="meal-footer">
+                <span class="meal-price">Price</span>
+                <button class="add-to-cart" type="button" data-meal-id="8">Add to Cart</button>
+              </div>
+            </div>
+          </article>
+
+          <!-- Meal 09 -->
+          <article class="meal-card" data-meal-id="9">
+            <div class="meal-image-placeholder">Meal Image 09</div>
+            <div class="meal-content">
+              <h3>Meal Name 09</h3>
+              <p class="meal-description">Meal description goes here.</p>
+              <div class="meal-footer">
+                <span class="meal-price">Price</span>
+                <button class="add-to-cart" type="button" data-meal-id="9">Add to Cart</button>
+              </div>
+            </div>
+          </article>
+
+          <!-- Meal 10 -->
+          <article class="meal-card" data-meal-id="10">
+            <div class="meal-image-placeholder">Meal Image 10</div>
+            <div class="meal-content">
+              <h3>Meal Name 10</h3>
+              <p class="meal-description">Meal description goes here.</p>
+              <div class="meal-footer">
+                <span class="meal-price">Price</span>
+                <button class="add-to-cart" type="button" data-meal-id="10">Add to Cart</button>
+              </div>
+            </div>
+          </article>
+
+          <!-- Meal 11 -->
+          <article class="meal-card" data-meal-id="11">
+            <div class="meal-image-placeholder">Meal Image 11</div>
+            <div class="meal-content">
+              <h3>Meal Name 11</h3>
+              <p class="meal-description">Meal description goes here.</p>
+              <div class="meal-footer">
+                <span class="meal-price">Price</span>
+                <button class="add-to-cart" type="button" data-meal-id="11">Add to Cart</button>
+              </div>
+            </div>
+          </article>
+
+          <!-- Meal 12 -->
+          <article class="meal-card" data-meal-id="12">
+            <div class="meal-image-placeholder">Meal Image 12</div>
+            <div class="meal-content">
+              <h3>Meal Name 12</h3>
+              <p class="meal-description">Meal description goes here.</p>
+              <div class="meal-footer">
+                <span class="meal-price">Price</span>
+                <button class="add-to-cart" type="button" data-meal-id="12">Add to Cart</button>
+              </div>
+            </div>
+          </article>
+
+          <!-- Meal 13 -->
+          <article class="meal-card" data-meal-id="13">
+            <div class="meal-image-placeholder">Meal Image 13</div>
+            <div class="meal-content">
+              <h3>Meal Name 13</h3>
+              <p class="meal-description">Meal description goes here.</p>
+              <div class="meal-footer">
+                <span class="meal-price">Price</span>
+                <button class="add-to-cart" type="button" data-meal-id="13">Add to Cart</button>
+              </div>
+            </div>
+          </article>
+
+          <!-- Meal 14 -->
+          <article class="meal-card" data-meal-id="14">
+            <div class="meal-image-placeholder">Meal Image 14</div>
+            <div class="meal-content">
+              <h3>Meal Name 14</h3>
+              <p class="meal-description">Meal description goes here.</p>
+              <div class="meal-footer">
+                <span class="meal-price">Price</span>
+                <button class="add-to-cart" type="button" data-meal-id="14">Add to Cart</button>
+              </div>
+            </div>
+          </article>
+
+          <!-- Meal 15 -->
+          <article class="meal-card" data-meal-id="15">
+            <div class="meal-image-placeholder">Meal Image 15</div>
+            <div class="meal-content">
+              <h3>Meal Name 15</h3>
+              <p class="meal-description">Meal description goes here.</p>
+              <div class="meal-footer">
+                <span class="meal-price">Price</span>
+                <button class="add-to-cart" type="button" data-meal-id="15">Add to Cart</button>
+              </div>
+            </div>
+          </article>
+
+          <!-- Meal 16 -->
+          <article class="meal-card" data-meal-id="16">
+            <div class="meal-image-placeholder">Meal Image 16</div>
+            <div class="meal-content">
+              <h3>Meal Name 16</h3>
+              <p class="meal-description">Meal description goes here.</p>
+              <div class="meal-footer">
+                <span class="meal-price">Price</span>
+                <button class="add-to-cart" type="button" data-meal-id="16">Add to Cart</button>
+              </div>
+            </div>
+          </article>
+
+          <!-- Meal 17 -->
+          <article class="meal-card" data-meal-id="17">
+            <div class="meal-image-placeholder">Meal Image 17</div>
+            <div class="meal-content">
+              <h3>Meal Name 17</h3>
+              <p class="meal-description">Meal description goes here.</p>
+              <div class="meal-footer">
+                <span class="meal-price">Price</span>
+                <button class="add-to-cart" type="button" data-meal-id="17">Add to Cart</button>
+              </div>
+            </div>
+          </article>
+
+          <!-- Meal 18 -->
+          <article class="meal-card" data-meal-id="18">
+            <div class="meal-image-placeholder">Meal Image 18</div>
+            <div class="meal-content">
+              <h3>Meal Name 18</h3>
+              <p class="meal-description">Meal description goes here.</p>
+              <div class="meal-footer">
+                <span class="meal-price">Price</span>
+                <button class="add-to-cart" type="button" data-meal-id="18">Add to Cart</button>
+              </div>
+            </div>
+          </article>
+
+          <!-- Meal 19 -->
+          <article class="meal-card" data-meal-id="19">
+            <div class="meal-image-placeholder">Meal Image 19</div>
+            <div class="meal-content">
+              <h3>Meal Name 19</h3>
+              <p class="meal-description">Meal description goes here.</p>
+              <div class="meal-footer">
+                <span class="meal-price">Price</span>
+                <button class="add-to-cart" type="button" data-meal-id="19">Add to Cart</button>
+              </div>
+            </div>
+          </article>
+
+          <!-- Meal 20 -->
+          <article class="meal-card" data-meal-id="20">
+            <div class="meal-image-placeholder">Meal Image 20</div>
+            <div class="meal-content">
+              <h3>Meal Name 20</h3>
+              <p class="meal-description">Meal description goes here.</p>
+              <div class="meal-footer">
+                <span class="meal-price">Price</span>
+                <button class="add-to-cart" type="button" data-meal-id="20">Add to Cart</button>
+              </div>
+            </div>
+          </article>
+
+          <!-- Meal 21 -->
+          <article class="meal-card" data-meal-id="21">
+            <div class="meal-image-placeholder">Meal Image 21</div>
+            <div class="meal-content">
+              <h3>Meal Name 21</h3>
+              <p class="meal-description">Meal description goes here.</p>
+              <div class="meal-footer">
+                <span class="meal-price">Price</span>
+                <button class="add-to-cart" type="button" data-meal-id="21">Add to Cart</button>
+              </div>
+            </div>
+          </article>
+
+          <!-- Meal 22 -->
+          <article class="meal-card" data-meal-id="22">
+            <div class="meal-image-placeholder">Meal Image 22</div>
+            <div class="meal-content">
+              <h3>Meal Name 22</h3>
+              <p class="meal-description">Meal description goes here.</p>
+              <div class="meal-footer">
+                <span class="meal-price">Price</span>
+                <button class="add-to-cart" type="button" data-meal-id="22">Add to Cart</button>
+              </div>
+            </div>
+          </article>
+
+          <!-- Meal 23 -->
+          <article class="meal-card" data-meal-id="23">
+            <div class="meal-image-placeholder">Meal Image 23</div>
+            <div class="meal-content">
+              <h3>Meal Name 23</h3>
+              <p class="meal-description">Meal description goes here.</p>
+              <div class="meal-footer">
+                <span class="meal-price">Price</span>
+                <button class="add-to-cart" type="button" data-meal-id="23">Add to Cart</button>
+              </div>
+            </div>
+          </article>
+
+          <!-- Meal 24 -->
+          <article class="meal-card" data-meal-id="24">
+            <div class="meal-image-placeholder">Meal Image 24</div>
+            <div class="meal-content">
+              <h3>Meal Name 24</h3>
+              <p class="meal-description">Meal description goes here.</p>
+              <div class="meal-footer">
+                <span class="meal-price">Price</span>
+                <button class="add-to-cart" type="button" data-meal-id="24">Add to Cart</button>
+              </div>
+            </div>
+          </article>
+
+          <!-- Meal 25 -->
+          <article class="meal-card" data-meal-id="25">
+            <div class="meal-image-placeholder">Meal Image 25</div>
+            <div class="meal-content">
+              <h3>Meal Name 25</h3>
+              <p class="meal-description">Meal description goes here.</p>
+              <div class="meal-footer">
+                <span class="meal-price">Price</span>
+                <button class="add-to-cart" type="button" data-meal-id="25">Add to Cart</button>
+              </div>
+            </div>
+          </article>
+
+          <!-- Meal 26 -->
+          <article class="meal-card" data-meal-id="26">
+            <div class="meal-image-placeholder">Meal Image 26</div>
+            <div class="meal-content">
+              <h3>Meal Name 26</h3>
+              <p class="meal-description">Meal description goes here.</p>
+              <div class="meal-footer">
+                <span class="meal-price">Price</span>
+                <button class="add-to-cart" type="button" data-meal-id="26">Add to Cart</button>
+              </div>
+            </div>
+          </article>
+
+          <!-- Meal 27 -->
+          <article class="meal-card" data-meal-id="27">
+            <div class="meal-image-placeholder">Meal Image 27</div>
+            <div class="meal-content">
+              <h3>Meal Name 27</h3>
+              <p class="meal-description">Meal description goes here.</p>
+              <div class="meal-footer">
+                <span class="meal-price">Price</span>
+                <button class="add-to-cart" type="button" data-meal-id="27">Add to Cart</button>
+              </div>
+            </div>
+          </article>
+
+          <!-- Meal 28 -->
+          <article class="meal-card" data-meal-id="28">
+            <div class="meal-image-placeholder">Meal Image 28</div>
+            <div class="meal-content">
+              <h3>Meal Name 28</h3>
+              <p class="meal-description">Meal description goes here.</p>
+              <div class="meal-footer">
+                <span class="meal-price">Price</span>
+                <button class="add-to-cart" type="button" data-meal-id="28">Add to Cart</button>
+              </div>
+            </div>
+          </article>
+
+          <!-- Meal 29 -->
+          <article class="meal-card" data-meal-id="29">
+            <div class="meal-image-placeholder">Meal Image 29</div>
+            <div class="meal-content">
+              <h3>Meal Name 29</h3>
+              <p class="meal-description">Meal description goes here.</p>
+              <div class="meal-footer">
+                <span class="meal-price">Price</span>
+                <button class="add-to-cart" type="button" data-meal-id="29">Add to Cart</button>
+              </div>
+            </div>
+          </article>
+
+          <!-- Meal 30 -->
+          <article class="meal-card" data-meal-id="30">
+            <div class="meal-image-placeholder">Meal Image 30</div>
+            <div class="meal-content">
+              <h3>Meal Name 30</h3>
+              <p class="meal-description">Meal description goes here.</p>
+              <div class="meal-footer">
+                <span class="meal-price">Price</span>
+                <button class="add-to-cart" type="button" data-meal-id="30">Add to Cart</button>
+              </div>
+            </div>
+          </article>
+
+          <!-- Meal 31 -->
+          <article class="meal-card" data-meal-id="31">
+            <div class="meal-image-placeholder">Meal Image 31</div>
+            <div class="meal-content">
+              <h3>Meal Name 31</h3>
+              <p class="meal-description">Meal description goes here.</p>
+              <div class="meal-footer">
+                <span class="meal-price">Price</span>
+                <button class="add-to-cart" type="button" data-meal-id="31">Add to Cart</button>
+              </div>
+            </div>
+          </article>
+
+          <!-- Meal 32 -->
+          <article class="meal-card" data-meal-id="32">
+            <div class="meal-image-placeholder">Meal Image 32</div>
+            <div class="meal-content">
+              <h3>Meal Name 32</h3>
+              <p class="meal-description">Meal description goes here.</p>
+              <div class="meal-footer">
+                <span class="meal-price">Price</span>
+                <button class="add-to-cart" type="button" data-meal-id="32">Add to Cart</button>
+              </div>
+            </div>
+          </article>
+
+          <!-- Meal 33 -->
+          <article class="meal-card" data-meal-id="33">
+            <div class="meal-image-placeholder">Meal Image 33</div>
+            <div class="meal-content">
+              <h3>Meal Name 33</h3>
+              <p class="meal-description">Meal description goes here.</p>
+              <div class="meal-footer">
+                <span class="meal-price">Price</span>
+                <button class="add-to-cart" type="button" data-meal-id="33">Add to Cart</button>
+              </div>
+            </div>
+          </article>
+
+          <!-- Meal 34 -->
+          <article class="meal-card" data-meal-id="34">
+            <div class="meal-image-placeholder">Meal Image 34</div>
+            <div class="meal-content">
+              <h3>Meal Name 34</h3>
+              <p class="meal-description">Meal description goes here.</p>
+              <div class="meal-footer">
+                <span class="meal-price">Price</span>
+                <button class="add-to-cart" type="button" data-meal-id="34">Add to Cart</button>
+              </div>
+            </div>
+          </article>
+
+          <!-- Meal 35 -->
+          <article class="meal-card" data-meal-id="35">
+            <div class="meal-image-placeholder">Meal Image 35</div>
+            <div class="meal-content">
+              <h3>Meal Name 35</h3>
+              <p class="meal-description">Meal description goes here.</p>
+              <div class="meal-footer">
+                <span class="meal-price">Price</span>
+                <button class="add-to-cart" type="button" data-meal-id="35">Add to Cart</button>
+              </div>
+            </div>
+          </article>
+
+          <!-- Meal 36 -->
+          <article class="meal-card" data-meal-id="36">
+            <div class="meal-image-placeholder">Meal Image 36</div>
+            <div class="meal-content">
+              <h3>Meal Name 36</h3>
+              <p class="meal-description">Meal description goes here.</p>
+              <div class="meal-footer">
+                <span class="meal-price">Price</span>
+                <button class="add-to-cart" type="button" data-meal-id="36">Add to Cart</button>
+              </div>
+            </div>
+          </article>
+
+          <!-- Meal 37 -->
+          <article class="meal-card" data-meal-id="37">
+            <div class="meal-image-placeholder">Meal Image 37</div>
+            <div class="meal-content">
+              <h3>Meal Name 37</h3>
+              <p class="meal-description">Meal description goes here.</p>
+              <div class="meal-footer">
+                <span class="meal-price">Price</span>
+                <button class="add-to-cart" type="button" data-meal-id="37">Add to Cart</button>
+              </div>
+            </div>
+          </article>
+
+          <!-- Meal 38 -->
+          <article class="meal-card" data-meal-id="38">
+            <div class="meal-image-placeholder">Meal Image 38</div>
+            <div class="meal-content">
+              <h3>Meal Name 38</h3>
+              <p class="meal-description">Meal description goes here.</p>
+              <div class="meal-footer">
+                <span class="meal-price">Price</span>
+                <button class="add-to-cart" type="button" data-meal-id="38">Add to Cart</button>
+              </div>
+            </div>
+          </article>
+
+          <!-- Meal 39 -->
+          <article class="meal-card" data-meal-id="39">
+            <div class="meal-image-placeholder">Meal Image 39</div>
+            <div class="meal-content">
+              <h3>Meal Name 39</h3>
+              <p class="meal-description">Meal description goes here.</p>
+              <div class="meal-footer">
+                <span class="meal-price">Price</span>
+                <button class="add-to-cart" type="button" data-meal-id="39">Add to Cart</button>
+              </div>
+            </div>
+          </article>
+
+          <!-- Meal 40 -->
+          <article class="meal-card" data-meal-id="40">
+            <div class="meal-image-placeholder">Meal Image 40</div>
+            <div class="meal-content">
+              <h3>Meal Name 40</h3>
+              <p class="meal-description">Meal description goes here.</p>
+              <div class="meal-footer">
+                <span class="meal-price">Price</span>
+                <button class="add-to-cart" type="button" data-meal-id="40">Add to Cart</button>
+              </div>
+            </div>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <aside class="cart-panel" id="cartPanel" aria-hidden="true">
+      <div class="cart-header">
+        <h2>Your Cart</h2>
+        <button id="closeCartButton" type="button" aria-label="Close cart">×</button>
+      </div>
+
+      <div class="cart-items" id="cartItems">
+        <p class="empty-cart-message">Your cart is empty.</p>
+      </div>
+
+      <div class="cart-summary">
+        <div class="summary-row">
+          <span>Total</span>
+          <strong id="cartTotal">0</strong>
+        </div>
+      </div>
+
+      <button class="primary-button full-width" id="checkoutButton" type="button">
+        Continue to Checkout
+      </button>
+    </aside>
+
+    <div class="overlay" id="overlay" hidden></div>
+
+    <section class="checkout-section" id="checkout">
+      <div class="container checkout-card">
+        <div class="section-heading">
+          <p class="eyebrow">Checkout</p>
+          <h2>Customer Details</h2>
+        </div>
+
+        <form id="checkoutForm">
+          <div class="form-grid">
+            <label>
+              Full Name
+              <input type="text" name="fullName" required />
+            </label>
+
+            <label>
+              Phone Number
+              <input type="tel" name="phone" required />
+            </label>
+
+            <label>
+              Delivery / Pickup
+              <select name="orderType" required>
+                <option value="">Select</option>
+                <option value="pickup">Pickup</option>
+                <option value="delivery">Delivery</option>
+              </select>
+            </label>
+
+            <label>
+              Area
+              <input type="text" name="area" />
+            </label>
+
+            <label class="full-width-field">
+              Address
+              <input type="text" name="address" />
+            </label>
+
+            <label class="full-width-field">
+              Notes
+              <textarea name="notes" rows="4"></textarea>
+            </label>
+          </div>
+
+          <button class="primary-button full-width" type="submit">
+            Place Order
+          </button>
+
+          <p class="form-note">
+            Odoo integration will be connected in a later step.
+          </p>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>© Lean Bite. Healthy Meals Baghdad.</p>
+    </div>
+  </footer>
+
+  <script src="js/app.js"></script>
+</body>
+</html>
